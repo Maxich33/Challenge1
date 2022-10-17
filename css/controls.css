@@ -1,0 +1,19 @@
+.intro__btn {
+    padding: 15px 30px;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--main-font-family);
+
+    border-radius: 15px;
+
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
+.intro__btn:hover {
+    border: 2px solid var(--gray-color);
+
+    color: var(--black-color);
+    background-color: var(--white-color);
+}

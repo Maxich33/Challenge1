@@ -1,0 +1,169 @@
+.header {
+    width: 100%;
+    padding: 40px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-left: 100px;
+    top: 0;
+    left: 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    padding: 15px 7px;
+}
+
+/* dropdown-features */
+
+.dropdown-features {
+    position: relative;
+}
+
+.dropdown-features ul {
+    position: absolute;
+    display: none;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0 0 -10px;
+
+    box-shadow: 5px 5px 25px 5px var(--gray-color);
+    border-radius: 10px;
+
+    font-family: var(--main-font-family);
+    font-size: 15px;
+    color: var(--gray-color);
+    background: var(--white-color);
+
+    list-style-type: none;
+}
+
+.dropdown-features ul li {
+    padding: 8px;
+}
+
+.dropdown-features ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-features ul li:hover {
+    font-weight: 700;
+    color: var(--black-color);
+    border-radius: 5px;
+}
+
+.dropdown-features a:focus + ul, 
+.dropdown-features a:hover + ul,
+.dropdown-features ul:hover {
+    display: block;
+}
+
+/* dropdown-company */
+
+.dropdown-company {
+    position: relative;
+}
+
+.dropdown-company ul {
+    position: absolute;
+    display: none;
+    width: 150px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+    margin: 10px 0 0 -10px;
+
+    box-shadow: 5px 5px 25px 5px var(--gray-color);
+    border-radius: 10px;
+
+    font-family: var(--main-font-family);
+    font-size: 15px;
+    color: var(--gray-color);
+    background: var(--white-color);
+
+    list-style-type: none;
+}
+
+.dropdown-company ul li {
+    padding: 8px;
+}
+
+.dropdown-company ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-company ul li:hover {
+    font-weight: 700;
+    color: var(--black-color);
+    border-radius: 5px;
+}
+
+.dropdown-company a:focus + ul, 
+.dropdown-company a:hover + ul,
+.dropdown-company ul:hover {
+    display: block;
+}
+
+.nav__link {
+    font-weight: 500;
+
+    font-family: var(--main-font-family);
+    color: var(--gray-color);
+}
+
+.nav__link:hover {
+    font-weight: 700;
+    color: var(--black-color);
+    
+}
+
+/* registration */
+
+.register {
+    display: flex;
+    align-items: center;
+}
+
+.register__link {
+    margin-left: 50px;
+
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    
+    color: var(--gray-color);
+}
+
+.register__link:hover {
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.register__link:last-child {
+    padding: 12px 20px;
+
+    border: 2px solid var(--gray-color);
+    border-radius: 15px;
+} 
+
+.logo {
+    width: 84px;
+}

@@ -1,0 +1,45 @@
+.intro {
+    margin-top: 100px;
+}
+
+.intro__title {
+    line-height: 1;
+
+    font-size: 80px;
+    font-weight: 700;
+    font-family: var(--main-font-family);
+
+    color: var(--black-color);
+}
+
+.intro__subtitle {
+    line-height: 1.4;
+    margin-bottom: 80px;
+
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--main-font-family);
+    color: var(--gray-color);
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__img {
+    margin-top: -100px;
+    width: 550px;
+}
+
+/* benefits */
+
+.benefits {
+    display: flex;
+}
+
+.benefits__img {
+    width: auto;
+    margin: -20px 50px 100px 0;
+}
+
